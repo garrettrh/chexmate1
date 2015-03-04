@@ -4,7 +4,6 @@ class CreateAdmins < ActiveRecord::Migration
       t.string :email
       t.string :password
       t.string :password_confirmation
-      t.users :resources
 
       t.timestamps null: false
     end
